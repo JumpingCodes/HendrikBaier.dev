@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url("./fonts/Dosis-Medium.ttf");
+}
+
+body {
+    background-image: url("./img/back.png");
+    background-repeat: repeat;
+    background-position-x: center;
+    background-position-y: 0%;
+}
+
+.main{
+    border: 15px solid #cecece;
+    font-family: 'Dosis';
+    font-size: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+    color: #C5CFDA;
+    text-shadow: 2px 2px black;
+}
